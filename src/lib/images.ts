@@ -3,7 +3,7 @@
  */
 
 const BASE_URL =
-  "https://awgaulwkwdopvecmigyc.supabase.co/storage/v1/object/public/gallery";
+  "https://awgaulwkwdopvecmigyc.supabase.co/storage/v1/object/public/Gallery";
 
 export const images = {
   // ─── HERO ─────────────────────────────────────────────────────────────
@@ -35,6 +35,24 @@ export const images = {
 
   // ─── 3RD FLOOR ────────────────────────────────────────────────────────
   thirdFloor: [
+    `${BASE_URL}/3rd-floor/1.jpg`,
+    `${BASE_URL}/3rd-floor/2.jpg`,
+    `${BASE_URL}/3rd-floor/3.jpg`,
+    `${BASE_URL}/3rd-floor/4.jpg`,
+  ],
+
+  // ─── GALLERY ──────────────────────────────────────────────────────────
+  gallery: [
+    `${BASE_URL}/ground-floor/1.jpg`,
+    `${BASE_URL}/1st-floor/1.jpg`,
+    `${BASE_URL}/2nd-floor/1.jpg`,
+    `${BASE_URL}/3rd-floor/1.jpg`,
+    `${BASE_URL}/ground-floor/2.jpg`,
+    `${BASE_URL}/1st-floor/2.jpg`,
+    `${BASE_URL}/2nd-floor/2.jpg`,
+    `${BASE_URL}/3rd-floor/2.jpg`,
+  ],
+};  thirdFloor: [
     `${BASE_URL}/3rd-floor/1.jpg`,
     `${BASE_URL}/3rd-floor/2.jpg`,
     `${BASE_URL}/3rd-floor/3.jpg`,
