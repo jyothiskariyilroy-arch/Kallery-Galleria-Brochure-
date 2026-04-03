@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["awgaulwkwdopvecmigyc.supabase.co"], // 👈 ADD THIS
+    domains: ["awgaulwkwdopvecmigyc.supabase.co"],
+    unoptimized: true, // 👈 ADD THIS
     formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
   },
