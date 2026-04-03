@@ -4,6 +4,7 @@ import Positioning from "@/components/Positioning";
 import DemandProof from "@/components/DemandProof";
 import StrategicEdge from "@/components/StrategicEdge";
 import UseCases from "@/components/UseCases";
+import TrustBuilders from "@/components/TrustBuilders";
 import FloorBreakdown from "@/components/FloorBreakdown";
 import Investment from "@/components/Investment";
 import Gallery from "@/components/Gallery";
@@ -21,6 +22,7 @@ export default function Home() {
       <DemandProof />
       <StrategicEdge />
       <UseCases />
+      <TrustBuilders />
       <FloorBreakdown />
       <Investment />
       <Gallery />
