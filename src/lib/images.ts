@@ -1,12 +1,12 @@
 /**
- * IMAGE CONFIGURATION (Supabase Connected - FIXED FOR .jpg.jpg)
+ * IMAGE CONFIGURATION (Supabase Connected - FIXED)
  */
 
 const BASE_URL =
   "https://awgaulwkwdopvecmigyc.supabase.co/storage/v1/object/public/Gallery";
 
 export const images = {
-  // ─── HERO (⚠️ upload 1.jpg.jpg here first) ────────────────────────────
+  // ─── HERO ─────────────────────────────────────────────────────────────
   hero: `${BASE_URL}/hero/1.jpg.jpg`,
 
   // ─── GROUND FLOOR ─────────────────────────────────────────────────────
@@ -35,6 +35,24 @@ export const images = {
 
   // ─── 3RD FLOOR ────────────────────────────────────────────────────────
   thirdFloor: [
+    `${BASE_URL}/3rd-floor/1.jpg.jpg`,
+    `${BASE_URL}/3rd-floor/2.jpg.jpg`,
+    `${BASE_URL}/3rd-floor/3.jpg.jpg`,
+    `${BASE_URL}/3rd-floor/4.jpg.jpg`,
+  ],
+
+  // ─── GALLERY ──────────────────────────────────────────────────────────
+  gallery: [
+    `${BASE_URL}/ground-floor/1.jpg.jpg`,
+    `${BASE_URL}/1st-floor/1.jpg.jpg`,
+    `${BASE_URL}/2nd-floor/1.jpg.jpg`,
+    `${BASE_URL}/3rd-floor/1.jpg.jpg`,
+    `${BASE_URL}/ground-floor/2.jpg.jpg`,
+    `${BASE_URL}/1st-floor/2.jpg.jpg`,
+    `${BASE_URL}/2nd-floor/2.jpg.jpg`,
+    `${BASE_URL}/3rd-floor/2.jpg.jpg`,
+  ],
+};  thirdFloor: [
     `${BASE_URL}/3rd-floor/1.jpg.jpg`,
     `${BASE_URL}/3rd-floor/2.jpg.jpg`,
     `${BASE_URL}/3rd-floor/3.jpg.jpg`,
