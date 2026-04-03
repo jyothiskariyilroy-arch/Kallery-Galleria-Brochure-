@@ -1,7 +1,3 @@
-/**
- * IMAGE CONFIGURATION 
- */
-
 const BASE_URL =
   "https://awgaulwkwdopvecmigyc.supabase.co/storage/v1/object/public/Gallery";
 
